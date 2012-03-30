@@ -1,0 +1,5 @@
+<% @posts.each do |post| %>
+  <%= render 'post', :post => post %>
+<% end %>
+
+<%= link_to 'New', new_post_path, :class => 'btn btn-primary' %>

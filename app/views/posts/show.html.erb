@@ -1,0 +1,11 @@
+<div class="post show">
+  <h2>
+    <%= @post.title %>
+    <div class="normal">
+      <%= link_to 'Edit', edit_post_path(@post), :class => 'btn btn-mini' %>
+      <%= link_to 'Delete', post_path(@post), :method => 'delete',
+          :confirm => 'Are you sure?', :class => 'btn btn-mini btn-danger' %>
+    </div>
+  </h2>
+  <%= @post.body %>
+</div>

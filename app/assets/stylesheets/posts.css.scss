@@ -1,0 +1,45 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*** POST ***/
+.post {
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #777;
+}
+
+.post h2 {
+  padding-bottom: 5px;
+}
+
+.post a {
+  color: #FFF;
+}
+
+.post a, a:visited {
+  background-color: #FFF;
+  text-decoration: none;
+  color: #000;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.show {
+  border: 0px;
+}
+
+div.normal {
+  display: inline-block;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.normal a {
+  text-decoration: none;
+}
